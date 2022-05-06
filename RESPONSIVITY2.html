@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsiv exempel</title>
+    <style>
+       
+        html {
+            background: url(swedishflag.jpg) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+             -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        .pageHead {
+            font-size: 30px;
+            padding: 20px;
+            text-align:center;
+            color: purple;
+            
+        }
+        body{
+            background-image: url(swedishflag.jpg) no-repeat;
+            margin: 0px;
+        }
+        nav a {
+            font-size: 32px;
+            padding: 10px;
+        }
+        article{
+            width: 22%;
+            display: inline-block;
+        }
+        @media screen and (max-width: 800px) {
+            a{
+                display: block;
+                border:solid black 2px;
+            }
+            article {
+                display: block;
+                max-width: 100%;
+            }
+          
+        }
+        .Article2 {
+            background-color: black;
+            padding: 10px;
+            border: solid black 2px;
+        }
+        .Article2:hover {
+            color:red;
+        }
+        .Gulstreck {
+            margin:auto;
+            background-color: yellow;
+            width:300px
+        }
+        .links {
+            background-color: black;
+            text-align: center;
+            width: 600px;
+            margin: auto;
+            border: 2px solid red;
+            margin-bottom: 5px;
+        }a
+    </style> 
+</head>
+<body>
+    <div class="pageHead">
+        <h1> VÄLKOMMEN</h1>
+    </div>
+    <nav class="links">
+        <a href="#">länk 1</a>
+        <a href="#">länk 2</a>
+        <a href="#">länk 3</a>
+        <a href="#">länk 4</a>
+        <a href="RESPONSIVITY.html">länk 5</a>
+
+    </nav>
+    <div class="Article2">
+        <article>
+            <h2>Artikel nr. 1</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dignissimos reiciendis obcaecati assumenda nostrum consequatur neque dolorem impedit. Aliquid quos, id tenetur consequatur quod vitae ex neque debitis veniam quidem?</p>
+        </article>
+        <article>
+            <h2>Artikel nr. 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, commodi illo nesciunt excepturi sint odio corporis, vero repellendus, sunt voluptatibus tempore nihil. Asperiores, odio. Quas vel nisi unde tempore libero!</p>
+        </article>
+        <article>
+            <h2>Artikel nr. 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, quas omnis! Reprehenderit error neque placeat nobis voluptate, quaerat assumenda quos debitis. Unde quasi corrupti incidunt, aliquam ipsa placeat deleniti rerum.</p>
+        </article>
+        <article>
+            <h2>Artikel nr. 4</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt nobis ea excepturi distinctio incidunt cupiditate non architecto aliquid aliquam neque repellat odio, aperiam ipsa doloribus error ex voluptate inventore ratione.</p>
+        </article>
+    </div>
+</body>
